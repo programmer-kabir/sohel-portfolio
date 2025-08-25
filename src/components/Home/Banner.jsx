@@ -23,7 +23,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="relative h-[550px] w-full bg-cover -top-1 bg-center flex items-center mt-0"
+      className="relative md:h-[550px] w-full bg-cover -top-2 md:-top-1 bg-center flex items-center mt-0"
       style={{
         backgroundImage: `url(${darkMode ? DarkbgImg : bgImg})`,
       }}
@@ -32,9 +32,18 @@ const Banner = () => {
 
       {/* Content */}
       <Container>
-        <div className="relative z-10 container mx-auto grid grid-cols-1  md:grid-cols-2 items-center">
+        <div className="relative z-10 container mx-auto grid grid-cols-1  md:grid-cols-2 items-center pb-7 md:pb-0">
+          
+          {/* Right profile image */}
+          <div className="flex justify-center md:justify-end md:order-2 mb-6 md:mb-0 pt-20  md:py-0">
+            <img
+              src={profileImg}
+              alt="Kabir"
+              className="w-full md:w-80 rounded-2xl shadow border-8 border-white"
+            />
+          </div>
           {/* Left text content */}
-          <div className="text-white space-y-6">
+          <div className="text-white space-y-6 ">
             <h1 className="text-4xl md:text-5xl 2xl:text-6xl font-bold " style={{ color: darkMode ? "#41B1CA" : "#143171" }}>
               Hi, I’m SOHEL RANA👋
             </h1>
@@ -70,14 +79,6 @@ const Banner = () => {
     </div>
           </div>
 
-          {/* Right profile image */}
-          <div className="flex justify-center md:justify-end">
-            <img
-              src={profileImg}
-              alt="Kabir"
-              className="w-64 md:w-80 rounded-2xl shadow border-8 border-white"
-            />
-          </div>
         </div>
       </Container>
     </section>
