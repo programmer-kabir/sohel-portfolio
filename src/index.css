@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+* {
+  font-family: "Inter", sans-serif;
+}
+.primaryColor {
+  color: #143171;
+}
+.SecondaryColor {
+  color: #4b5563;
+}
+
