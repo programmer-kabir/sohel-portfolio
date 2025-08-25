@@ -9,4 +9,12 @@
 .SecondaryColor {
   color: #4b5563;
 }
+.primaryButton{
+  background: #143171;
+  color: #00E3C9;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
 
+}

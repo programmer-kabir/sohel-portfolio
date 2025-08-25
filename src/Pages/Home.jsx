@@ -1,16 +1,15 @@
+import About from '../components/Home/About'
 import Banner from '../components/Home/Banner'
 
 const Home = () => {
 
   return (
-    <div>
+    <div className=''>
       <Banner />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <About />
+      <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br />
+      <br /> <br /> <br /> <br /> <br /> <br />
 
     </div>
   )

@@ -32,7 +32,9 @@ const Navbar = () => {
     ? "bg-[#AC9DB8] shadow-lg py-2" // light mode scroll color
     : "bg-transparent";
   return (
-     <nav className={`fixed top-0  w-full transition-all duration-500 z-[100] ${bgColor}`}>
+    <nav
+      className={`fixed top-0  w-full transition-all duration-500 z-[100] ${bgColor}`}
+    >
       <Container>
         <div className="flex justify-between items-center text-white pt-2">
           <h1 className="text-3xl font-bold">{"<SS />"}</h1>
@@ -86,16 +88,15 @@ const Navbar = () => {
           } md:hidden`}
         >
           <div className="p-5  ">
-             <h1 className="text-3xl font-bold text-white">{"<SS />"}</h1>
-          <button
-            onClick={() => setIsOpen(false)}
-            className="absolute top-5 right-5 text-white cursor-pointer"
-          >
-            <FiX size={28} />
-          </button>
+            <h1 className="text-3xl font-bold text-white">{"<SS />"}</h1>
+            <button
+              onClick={() => setIsOpen(false)}
+              className="absolute top-5 right-5 text-white cursor-pointer"
+            >
+              <FiX size={28} />
+            </button>
           </div>
           <div className="space-y-6  p-5 text-lg flex flex-col border-y-2 border-[#1F2937]">
-            
             <ScrollLink
               to="/"
               className="text-white cursor-pointer"
@@ -151,24 +152,21 @@ const Navbar = () => {
             >
               Contact
             </ScrollLink>
-          
           </div>
-         <div className="p-5 space-y-5">
-           <div className=" flex items-center justify-between">
-            <p className="text-[#D1D5DB]">Switch Theme</p>
-             <img
-              src={darkMode ? mood : whiteMood}
-              alt="toggle theme"
-              className="w-6 h-6 cursor-pointer"
-              onClick={() => setDarkMode(!darkMode)}
-            />
-
-          </div>
-          <button className="bg-white w-full px-5  py-2  rounded-xl text-[#111827]">
+          <div className="p-5 space-y-5">
+            <div className=" flex items-center justify-between">
+              <p className="text-[#D1D5DB]">Switch Theme</p>
+              <img
+                src={darkMode ? mood : whiteMood}
+                alt="toggle theme"
+                className="w-6 h-6 cursor-pointer"
+                onClick={() => setDarkMode(!darkMode)}
+              />
+            </div>
+            <button className="bg-white w-full px-5  py-2  rounded-xl text-[#111827]">
               Download CV
             </button>
-         </div>
-           
+          </div>
         </div>
       </Container>
     </nav>

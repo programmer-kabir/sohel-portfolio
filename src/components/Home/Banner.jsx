@@ -32,7 +32,7 @@ const Banner = () => {
 
       {/* Content */}
       <Container>
-        <div className="relative z-10 container mx-auto grid grid-cols-1  md:grid-cols-2 items-center pb-7 md:pb-0">
+        <div className="relative z-10 container mx-auto grid grid-cols-1  md:grid-cols-2 items-center pb-7 md:pb-0 md:px-10">
           
           {/* Right profile image */}
           <div className="flex justify-center md:justify-end md:order-2 mb-6 md:mb-0 pt-20  md:py-0">
