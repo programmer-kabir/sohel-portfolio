@@ -48,16 +48,16 @@ const Services = () => {
         }
       />
       <Container>
-        <div className="pt-16 grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div className="pt-16 grid grid-cols-1 md:grid-cols-2 gap-5">
           {services.map((service) => (
             <div
               key={service?.id}
               className="p-6 rounded-2xl"
               style={{ backgroundColor: darkMode ? "#1F2937" : "#E9EEF3" }}
             >
-              <div className="flex  gap-4">
+              <div className="md:flex  gap-4">
                 {/* Image Container with fixed size */}
-                <div className="w-[350px] h-[230px] flex-shrink-0">
+                <div className="md:w-[350px] md:h-[230px] flex-shrink-0">
                   <img
                     className="w-full h-full object-cover rounded-lg"
                     src={service?.image}
@@ -65,7 +65,7 @@ const Services = () => {
                   />
                 </div>
 
-                <div>
+                <div className="pt-3 md:pt-0">
                   <h5
                     style={{ color: darkMode ? "#CEEEEA" : "#000" }}
                     className="text-base font-semibold"
