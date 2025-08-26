@@ -7,7 +7,7 @@ const About = () => {
   const { darkMode } = useMoodToggle();
   return (
     <section
-      className="relative -top-2 md:-top-1 py-16"
+      className="relative -top-2 md:-top-1 pt-16 pb-20"
       style={{ backgroundColor: darkMode ? "#111827" : "#fff" }}
     >
       <div className="flex items-center justify-center ">
