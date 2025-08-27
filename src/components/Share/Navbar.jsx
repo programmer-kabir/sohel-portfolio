@@ -33,7 +33,7 @@ const Navbar = () => {
     : "bg-transparent";
   return (
     <nav
-      className={`fixed top-0  w-full transition-all duration-500 z-[100] ${bgColor}`}
+      className={`fixed w-full transition-all duration-500 z-[100] ${bgColor}`}
     >
       <Container>
         <div className="flex justify-between items-center text-white pt-2">

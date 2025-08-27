@@ -4,6 +4,7 @@ import CaseStudies from '../components/Home/CaseStudies'
 import Certification from '../components/Home/Certification'
 import Contact from '../components/Home/Contact'
 import Experience from '../components/Home/Experience'
+import GetInTouch from '../components/Home/GetInTouch'
 import Services from '../components/Home/Services'
 import Skills from '../components/Home/Skills'
 
@@ -19,6 +20,7 @@ const Home = () => {
       <Skills/>
       <Certification />
       <Contact />
+      <GetInTouch/>
 
     </div>
   )

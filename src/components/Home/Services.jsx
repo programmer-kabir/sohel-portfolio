@@ -38,7 +38,7 @@ const Services = () => {
 
   return (
     <section
-      className="relative -top-2 md:-top-1 pt-16 pb-20"
+      className="relative  pt-16 pb-20"
       style={{ backgroundColor: darkMode ? "#030712" : "#F9FAFB" }}
     >
       <Title

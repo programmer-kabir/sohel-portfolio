@@ -10,7 +10,7 @@ const Skills = () => {
   const { darkMode } = useMoodToggle();
   return (
     <section
-      className="relative -top-2 md:-top-1 pt-16 pb-20"
+      className="relative pt-16 pb-20"
       style={{ backgroundColor: darkMode ? "#111827" : "#FFF" }}
     >
       <Title

@@ -17,7 +17,7 @@ const Layout = () => {
     <DarkModeContext.Provider value={{ darkMode, setDarkMode }}>
       <Navbar />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </DarkModeContext.Provider>
   );
 };
