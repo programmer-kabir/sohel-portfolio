@@ -2,7 +2,44 @@ import React from 'react'
 import Container from '../Container'
 import Title from '../Share/Title'
 import useMoodToggle from '../../utils/Hooks/useMoodToggle'
-
+const Studies = [
+  {
+    id: "1",
+    image: "https://iili.io/KdyHmns.png",
+    title: "Prattayon",
+    subTitle:
+      "Mobile App Redesign",
+  },
+  {
+    id: "2",
+    image: "https://iili.io/KdyHmns.png",
+    title: "Prattayon",
+    subTitle:
+      "Mobile App Redesign",
+  },
+  {
+    id: "3",
+    image: "https://iili.io/KdyHmns.png",
+    title: "Prattayon",
+    subTitle:
+      "Mobile App Redesign",
+  },
+  {
+    id: "4",
+    image: "https://iili.io/KdyHmns.png",
+    title: "Prattayon",
+    subTitle:
+      "Mobile App Redesign",
+    eduction:[
+      "EduLearn – Online Learning Platform Redesign",
+      [
+         "Objective: Improve navigation & user engagement",
+         "Tools Used: Figmaplatforms",  
+      ]
+      
+    ]
+  },
+];
 const CaseStudies = () => {
     const {darkMode}  = useMoodToggle()
   return (
@@ -11,13 +48,13 @@ const CaseStudies = () => {
       style={{ backgroundColor: darkMode ? "#030712" : "#F9FAFB" }}
     >
       <Title
-        button={"My UI/UX Design Services"}
+        button={"Completed Case Studies"}
         title={
-          "I create modern, responsive, and user-friendly designs that focus on real user needs. From wireframes to final UI, I deliver clean and intuitive digital experiences for websites, apps, and dashboards."
+          "A showcase of real-world design challenges I’ve solved—highlighting my practical skills, user-centered thinking, and problem-solving approach in UI/UX projects."
         }
       />
       <Container>
-        <div className="pt-16">
+        <div className="pt-12">
           
         </div>
       </Container>

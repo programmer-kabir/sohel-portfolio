@@ -1,7 +1,10 @@
 import About from '../components/Home/About'
 import Banner from '../components/Home/Banner'
+import CaseStudies from '../components/Home/CaseStudies'
+import Certification from '../components/Home/Certification'
 import Experience from '../components/Home/Experience'
 import Services from '../components/Home/Services'
+import Skills from '../components/Home/Skills'
 
 const Home = () => {
 
@@ -11,9 +14,10 @@ const Home = () => {
       <About />
       <Services />
       <Experience />
-      <br /> <br /> <br /> <br /> <br /> <br />
-      <br /> <br /> <br /> <br /> <br /> <br />
-      <br /> <br /> <br /> <br /> <br /> <br />
+      <CaseStudies/>
+      <Skills/>
+      <Certification />
+      
 
     </div>
   )

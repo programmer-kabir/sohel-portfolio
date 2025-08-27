@@ -48,7 +48,7 @@ const Services = () => {
         }
       />
       <Container>
-        <div className="pt-16 grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div className="pt-12 grid grid-cols-1 md:grid-cols-2 gap-5">
           {services.map((service) => (
             <div
               key={service?.id}
@@ -73,8 +73,8 @@ const Services = () => {
                     {service?.title}
                   </h5>
                   <p
-                    style={{ color: darkMode ? "#D1D5DB" : "#484848" }}
-                    className="text-sm text-gray-500"
+                    style={{ color: darkMode ? "#D1D5DB" : "#484848", fontFamily: "Poppins, sans-serif" }}
+                    className="text-sm text-gray-500 pt-2"
                   >
                     {service?.subTitle}
                   </p>

@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <p className="text-center pt-4" style={{color:darkMode?"#F9FAFB":"#707070"}}>Curious about me? Here you have it:</p>
       <Container>
-        <div className=" z-10 container mx-auto md:flex gap-7 items-center pt-10 md:px-12">
+        <div className="pt-12 z-10 container mx-auto md:flex gap-7 items-center  md:px-12">
           {/* Right profile image */}
           <div className="flex w-full items-center justify-center md:w-[25%] relative z-auto px-8 md:px-0">
             <img
